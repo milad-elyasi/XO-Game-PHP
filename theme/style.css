@@ -1,0 +1,58 @@
+body{
+	direction:rtl !important;
+}
+.errorMsg {
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	color: #FFF;
+	background-color: #990000;
+	border: 1px solid #660000;
+	padding: 5px;
+}
+
+.successMsg {
+	font-weight: bold;
+	margin: auto;
+	text-align: center;
+	background-color: #66CC66;
+	border: 1px solid #33AA33;
+	padding: 5px;
+}
+
+#board {
+	margin: auto;
+	width: 320px;
+}
+
+.board_cell {
+	float: left;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	border: 1px solid #000;
+}
+
+.board_cell select{
+	margin-top: 35px;
+}
+
+.break {
+	clear: both;
+}
+
+#content {
+	margin: auto;
+	padding: 10px;
+	width: 60%;
+}
+.dobutton{
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
